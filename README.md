@@ -79,6 +79,39 @@ Please, refer to [Fast DDS documentation](https://fast-dds.docs.eprosima.com/en/
 ### Installation from binaries
 The latest, up to date binary release of *eprosima Fast DDS* can be obtained from the <a href='http://www.eprosima.com'>company website</a>.
 
+## Learning Guide / 学习指南
+
+🚀 **New to Fast-DDS? Start here!**
+
+We provide comprehensive learning guides to help you get started:
+
+* **[English Learning Guide](HOW_TO_USE_FAST_DDS.md)** - Complete guide with step-by-step instructions
+* **[中文学习指南](如何使用Fast-DDS指南.md)** - 详细的中文使用指南
+* **[Quick Start Script](quick_start.sh)** - Automated setup and build script
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/eProsima/Fast-DDS.git
+cd Fast-DDS
+
+# Run the quick start script
+chmod +x quick_start.sh
+./quick_start.sh --install-deps --demo
+
+# Or view the learning guides
+cat HOW_TO_USE_FAST_DDS.md        # English
+cat 如何使用Fast-DDS指南.md          # Chinese
+```
+
+The learning guides include:
+- Step-by-step installation instructions
+- Basic concepts and architecture
+- Hello World example walkthrough
+- Advanced usage patterns
+- Troubleshooting tips
+
 ## Documentation
 
 You can access the documentation online, which is hosted on [Read the Docs](https://fast-dds.docs.eprosima.com).
